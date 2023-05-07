@@ -32,6 +32,6 @@ int main(void)
     vector<int> n2 = {2};
     vector<int> n3 = {1, 2};
     vector<int> n4 = {3, 4};
-    s.findMedianSortedArrays(n1, n2);
-    s.findMedianSortedArrays(n3, n4);
+    cout << s.findMedianSortedArrays(n1, n2) << endl;
+    cout << s.findMedianSortedArrays(n3, n4);
 }
